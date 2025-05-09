@@ -1,0 +1,64 @@
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #2E3192, #1BFFFF);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Container */
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Header */
+header {
+  background: transparent;
+  color: #FFD700;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+header h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+header p {
+  font-size: 20px;
+  color: #F79F1F;
+  opacity: 0.9;
+}
+
+/* List Container (Single Row Alignment) */
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+/* Individual Items (Black Boxes) */
+.list-item {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.list-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 12px rgba(255, 255, 255, 0.2);
+}
